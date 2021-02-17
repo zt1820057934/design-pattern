@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>single-pattern</module>
+        <module>factory-pattern</module>
+        <module>prototype-pattern</module>
+        <module>proxy-pattern</module>
+        <module>bridge-pattern</module>
+        <module>decorator-pattern</module>
+        <module>adapter-pattern</module>
+        <module>composite-pattern</module>
+        <module>flyweight-pattern</module>
+        <module>observer-pattern</module>
+        <module>strategy-pattern</module>
+        <module>chain-pattern</module>
+        <module>stateMachine-pattern</module>
+        <module>iterator-pattern</module>
+        <module>visitor-pattern</module>
+        <module>snapshot-pattern</module>
+        <module>command-pattern</module>
+    </modules>
+
+    <groupId>com.example.design</groupId>
+    <artifactId>design</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>design-pattern</name>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+            <version>1.18.16</version>
+        </dependency>
+    </dependencies>
+
+</project>

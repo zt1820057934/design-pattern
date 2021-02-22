@@ -1,5 +1,7 @@
 # Design Pattern
 
+![desc](./zMerge.png)
+
 ### 创建型模式 --- 对象的创建
 
 #### single-pattern
